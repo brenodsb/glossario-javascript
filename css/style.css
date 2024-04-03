@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #560d78;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
