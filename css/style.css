@@ -7,8 +7,6 @@
 
 .center{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1100px;
     margin: 0 auto;
     padding: 0 2%;
     justify-content: center;
@@ -24,16 +22,15 @@ html, body{
 
 header{
     padding: 20px 0;
-    height: 200px;
 }
 
-.logo{
-    width: 50%;
+.logo img{
+    width: 20%;
 }
 
 .menu{
     padding-top: 30px;
-    width: 50%;
+    width: 70%;
     text-align: right;
 }
 
@@ -41,12 +38,12 @@ header{
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 15px;
+    margin-right: 0;
 }
 
 .social-media{
     position: absolute;
-    top: 30%;
+    top: 35%;
     right: 10px;
 }
 
@@ -58,10 +55,12 @@ header{
 
 .texto-sobre{
     margin-top: 10%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .texto-sobre h1{
-    font-size: 50px;
+    font-size: 42px;
     color: #333; 
     margin-bottom: 1%;
 }
