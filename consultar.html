@@ -35,10 +35,12 @@
                 </div>
             </div><!--extras-->
             <div class="center">
-                <div class="texto-sobre">
-                    <h1>Glossário<br/>My <span style="color:#ffe600">Javascript</span></h1>
-                    <p>Bem-vindo ao Glossário JavaScript, onde as palavras-chave são mais saltitantes que um 'console.log' em um loop infinito! Aqui, você vai desvendar os mistérios de 'var', 'let' e 'const' sem precisar de um 'debugger'. Navegue por este mar de termos técnicos com a facilidade de um 'return' bem colocado. E não se preocupe, não vamos deixar você em um 'callback hell'; nossa missão é clarear cada função, objeto e expressão regular que o JavaScript tem a oferecer. Prepare-se para codificar com estilo e humor, porque aqui, até os 'undefined' encontram seu lugar!</p>
-                    <a href="consultar.html"><button>Consultar</button></a>
+                <div class="consulta">
+                    <p>O que você gostaria de saber?</p>
+                    <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()">
+                    </select>
+                    <p><br/>Descrição</p>
+                    <textarea id="txt-desc" name="description" title="Descição" placeholder=""></textarea>
                 </div>
             </div>
         </section>
