@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>My Javascript</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My Javascript">
+        <meta name="author" content="Breno Sousa">
+        <meta name="keywords" content="Javascript">
+        <link rel="stylesheet" href="./css/style.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    </head>
+    
+    <body id="body">
+
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                 </svg>
+            </button>
+            <div class="logo_header">
+                <div class="logo">
+                    <a href="index.html"><img src="assets\images\js.png" class="img_logo_header" alt="Logo"></a>
+                </div>
+            </div>
+            <div class="navigation_header" id="navigation_header">
+                <button onclick="toggleSidebar()" class="btn_icon_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+                <a href="index.html" class="active">Home</a>
+                <a href="consultar.html">Consultar</a>
+                <a href="cadastrar.html">Cadastrar</a>
+                <a href="sobre.html">Sobre</a>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/brenodsb_"><img src="assets\images\instagram.png"></a>
+            <a href="https://github.com/brenodsb/"><img src="assets\images\github.png"></a>
+            <a href="https://br.linkedin.com/in/brenodsb"><img src="assets\images\linkedin.png"></a>
+            <a href="brenosousabraga@gmail.com"><img src="assets\images\gmail.png"></a>
+        </div>
+        <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+            <h1>Glossário<br/>My <span style="color:#ffe600">Javascript</span></h1>
+            <p>Bem-vindo ao Glossário JavaScript, onde as palavras-chave são mais saltitantes que um 'console.log' em um loop infinito! Aqui, você vai desvendar os mistérios de 'var', 'let' e 'const' sem precisar de um 'debugger'. Navegue por este mar de termos técnicos com a facilidade de um 'return' bem colocado. E não se preocupe, não vamos deixar você em um 'callback hell'; nossa missão é clarear cada função, objeto e expressão regular que o JavaScript tem a oferecer. Prepare-se para codificar com estilo e humor, porque aqui, até os 'undefined' encontram seu lugar!</p>
+            <a href="consultar.html"><button>Consultar</button></a>
+        </div>
+    </body>
+    <script src="./js/header.js"></script> 
+</html>

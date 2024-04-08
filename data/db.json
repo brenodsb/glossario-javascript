@@ -1,0 +1,253 @@
+[
+    {
+        "id": 1,
+        "titulo": "O que é JavaScript",
+        "descricao": "JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. Desde o momento em que a página web é exibida no navegador, JavaScript é usado para tornar a página mais responsiva, interativa e dinâmica."
+    },
+    {
+        "id": 2,
+        "titulo": "Statement 'for'",
+        "descricao": "O statement 'for' cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência."
+    },
+    {
+        "id": 3,
+        "titulo": "Funções em JavaScript",
+        "descricao": "Uma função em JavaScript é um bloco de código projetado para realizar uma tarefa específica. Uma função é executada quando 'algo' a invoca (chama)."
+    },
+    {
+        "id": 4,
+        "titulo": "Objetos em JavaScript",
+        "descricao": "JavaScript é uma linguagem baseada em objetos. Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor."
+    },
+    {
+        "id": 5,
+        "titulo": "Variáveis em JavaScript",
+        "descricao": "Variáveis em JavaScript são usadas para armazenar dados temporários. Elas são declaradas usando as palavras-chave var, let ou const."
+    },
+    {
+        "id": 6,
+        "titulo": "Comentários em JavaScript",
+        "descricao": "Comentários em JavaScript são úteis para documentar o código. Eles podem ser de linha única (//) ou de várias linhas (/* */)."
+    },
+    {
+        "id": 7,
+        "titulo": "Tipos de Dados em JavaScript",
+        "descricao": "JavaScript possui tipos de dados primitivos, como números, strings, booleanos, null e undefined, além de objetos e arrays."
+    },
+    {
+        "id": 8,
+        "titulo": "Operadores Aritméticos em JavaScript",
+        "descricao": "JavaScript possui operadores aritméticos padrão, como adição (+), subtração (-), multiplicação (*), divisão (/) e módulo (%)."
+    },
+    {
+        "id": 9,
+        "titulo": "Estruturas de Controle em JavaScript",
+        "descricao": "As estruturas de controle em JavaScript incluem instruções condicionais (if, else if, else) e loops (for, while, do-while) para controlar o fluxo do programa."
+    },
+    {
+        "id": 10,
+        "titulo": "Arrays em JavaScript",
+        "descricao": "Arrays em JavaScript são objetos que armazenam uma coleção de elementos, podendo conter diferentes tipos de dados e ter um tamanho dinâmico."
+    },
+    {
+        "id": 11,
+        "titulo": "Métodos de Array em JavaScript",
+        "descricao": "JavaScript fornece uma variedade de métodos embutidos para manipular arrays, como push(), pop(), shift(), unshift(), splice(), slice() e muitos outros."
+    },
+    {
+        "id": 12,
+        "titulo": "Objeto Math em JavaScript",
+        "descricao": "O objeto Math em JavaScript fornece constantes e métodos para realizar operações matemáticas, como cálculos trigonométricos, arredondamento, potência e muito mais."
+    },
+    {
+        "id": 13,
+        "titulo": "Objeto Date em JavaScript",
+        "descricao": "O objeto Date em JavaScript é usado para trabalhar com datas e horários. Ele fornece métodos para obter e definir datas, realizar cálculos de tempo e formatar datas."
+    },
+    {
+        "id": 14,
+        "titulo": "Escopo em JavaScript",
+        "descricao": "O escopo em JavaScript determina a visibilidade e acessibilidade das variáveis em diferentes partes do código. JavaScript tem escopo global e escopo de função."
+    },
+    {
+        "id": 15,
+        "titulo": "Closure em JavaScript",
+        "descricao": "Um closure em JavaScript é uma função que tem acesso ao escopo em que foi criada, mesmo que seja chamada fora desse escopo. Isso permite criar funções encapsuladas e privadas."
+    },
+    {
+        "id": 16,
+        "titulo": "Callback em JavaScript",
+        "descricao": "Um callback em JavaScript é uma função que é passada como argumento para outra função e é executada após a conclusão de uma operação assíncrona ou de longa duração."
+    },
+    {
+        "id": 17,
+        "titulo": "Promises em JavaScript",
+        "descricao": "Promises em JavaScript são objetos usados para representar uma operação assíncrona e seu resultado eventual. Elas são uma maneira mais limpa de lidar com código assíncrono do que callbacks."
+    },
+    {
+        "id": 18,
+        "titulo": "Async/Await em JavaScript",
+        "descricao": "Async/Await é uma maneira moderna de escrever código assíncrono em JavaScript. Permite escrever código assíncrono de forma síncrona, melhorando a legibilidade e a manutenção."
+    },
+    {
+        "id": 19,
+        "titulo": "Expressões Regulares em JavaScript",
+        "descricao": "Expressões regulares em JavaScript são padrões utilizados para corresponder a determinados padrões de texto. Elas são frequentemente usadas para validação e manipulação de strings."
+    },
+    {
+        "id": 20,
+        "titulo": "JSON em JavaScript",
+        "descricao": "JSON (JavaScript Object Notation) é um formato de dados amplamente utilizado para armazenar e trocar dados. Em JavaScript, é fácil converter entre objetos JavaScript e JSON."
+    },
+    {
+        "id": 21,
+        "titulo": "DOM (Document Object Model) em JavaScript",
+        "descricao": "O DOM em JavaScript representa a estrutura da página HTML como uma árvore de objetos. Ele permite manipular dinamicamente o conteúdo, a estrutura e o estilo da página."
+    },
+    {
+        "id": 22,
+        "titulo": "Eventos em JavaScript",
+        "descricao": "Eventos em JavaScript são ações que ocorrem em elementos HTML, como clicar em um botão, mover o mouse sobre um elemento, pressionar uma tecla, etc. Eles podem ser manipulados usando event listeners."
+    },
+    {
+        "id": 23,
+        "titulo": "BOM (Browser Object Model) em JavaScript",
+        "descricao": "O BOM em JavaScript fornece objetos e métodos para interagir com o navegador. Isso inclui manipulação de janelas, histórico de navegação, cookies, etc."
+    },
+    {
+        "id": 24,
+        "titulo": "Ajax em JavaScript",
+        "descricao": "Ajax (Asynchronous JavaScript and XML) é uma técnica de desenvolvimento web usada para criar aplicativos web interativos, atualizando partes da página sem recarregar a página inteira."
+    },
+    {
+        "id": 25,
+        "titulo": "Módulos em JavaScript",
+        "descricao": "Módulos em JavaScript permitem dividir o código em arquivos separados para melhor organização e reutilização. O ECMAScript 6 introduziu suporte nativo para módulos."
+    },
+    {
+        "id": 26,
+        "titulo": "Arrow Functions em JavaScript",
+        "descricao": "Arrow functions em JavaScript são uma forma mais curta e concisa de escrever funções. Elas têm uma sintaxe mais simples e um comportamento diferente em relação ao 'this'."
+    },
+    {
+        "id": 27,
+        "titulo": "Template Literals em JavaScript",
+        "descricao": "Template literals em JavaScript são uma maneira conveniente de criar strings que permitem a interpolação de variáveis e a formatação de strings de forma mais legível."
+    },
+    {
+        "id": 28,
+        "titulo": "Destructuring em JavaScript",
+        "descricao": "Destructuring em JavaScript é uma técnica que permite extrair dados de arrays e objetos usando uma sintaxe mais concisa. Isso simplifica o código e torna mais fácil trabalhar com estruturas de dados complexas."
+    },
+    {
+        "id": 29,
+        "titulo": "Rest Parameters em JavaScript",
+        "descricao": "Rest parameters em JavaScript permitem representar um número indefinido de argumentos como um array. Isso facilita trabalhar com funções que aceitam um número variável de argumentos."
+    },
+    {
+        "id": 30,
+        "titulo": "Spread Syntax em JavaScript",
+        "descricao": "Spread syntax em JavaScript é uma sintaxe que permite espalhar elementos de arrays ou propriedades de objetos em lugares onde múltiplos argumentos ou elementos são esperados."
+    },
+    {
+        "id": 31,
+        "titulo": "Map em JavaScript",
+        "descricao": "Map em JavaScript é uma estrutura de dados que mapeia chaves para valores. Ele permite armazenar pares chave-valor e acessar os valores com base na chave."
+    },
+    {
+        "id": 32,
+        "titulo": "Set em JavaScript",
+        "descricao": "Set em JavaScript é uma coleção de valores únicos, o que significa que cada valor só pode ocorrer uma vez no conjunto. Ele fornece métodos para adicionar, remover e verificar a existência de elementos."
+    },
+    {
+        "id": 33,
+        "titulo": "Promises em JavaScript",
+        "descricao": "Promises em JavaScript são objetos usados para representar uma operação assíncrona e seu resultado eventual. Elas são uma maneira mais limpa de lidar com código assíncrono do que callbacks."
+    },
+    {
+        "id": 34,
+        "titulo": "Generators em JavaScript",
+        "descricao": "Generators em JavaScript são uma maneira poderosa de criar iteradores. Eles permitem pausar e retomar a execução de uma função, produzindo uma sequência de valores sob demanda."
+    },
+    {
+        "id": 35,
+        "titulo": "Proxy em JavaScript",
+        "descricao": "Proxy em JavaScript é um objeto que envolve outro objeto e intercepta operações como leitura, gravação e execução de métodos. Isso permite implementar lógica personalizada para manipular essas operações."
+    },
+    {
+        "id": 36,
+        "titulo": "Reflect em JavaScript",
+        "descricao": "Reflect em JavaScript é um objeto que fornece métodos para acessar e manipular objetos, semelhante aos métodos encontrados no objeto global. Ele permite acessar as operações de metaprogramação de forma mais limpa e consistente."
+    },
+    {
+        "id": 37,
+        "titulo": "Classes em JavaScript",
+        "descricao": "Classes em JavaScript são uma forma de definir construtores e métodos em um padrão orientado a objetos. Elas foram introduzidas no ECMAScript 6 e simplificam a sintaxe para criar e herdar objetos."
+    },
+    {
+        "id": 38,
+        "titulo": "Herança em JavaScript",
+        "descricao": "Herança em JavaScript é a capacidade de um objeto se basear em outro objeto para herdar propriedades e métodos. Isso permite a reutilização de código e a criação de hierarquias de objetos."
+    },
+    {
+        "id": 39,
+        "titulo": "Mixins em JavaScript",
+        "descricao": "Mixins em JavaScript são uma técnica de composição que permite adicionar funcionalidades a uma classe combinando métodos de outras classes. Isso promove a reutilização de código e evita o problema do legado de herança múltipla."
+    },
+    {
+        "id": 40,
+        "titulo": "Testes Unitários em JavaScript",
+        "descricao": "Testes unitários em JavaScript são uma prática de desenvolvimento que envolve escrever testes automatizados para verificar se unidades individuais de código estão funcionando corretamente. Isso ajuda a garantir a qualidade do software e a facilitar a manutenção."
+    },
+    {
+        "id": 41,
+        "titulo": "Debugging em JavaScript",
+        "descricao": "Debugging em JavaScript é o processo de identificar, isolar e corrigir bugs em um programa. Isso pode ser feito usando ferramentas integradas do navegador, como o console de desenvolvedor, ou ferramentas de terceiros."
+    },
+    {
+        "id": 42,
+        "titulo": "Strict Mode em JavaScript",
+        "descricao": "Strict mode em JavaScript é um modo especial que permite optar por uma versão restrita da linguagem. Isso ajuda a evitar erros comuns, torna o código mais seguro e prepara para recursos futuros do ECMAScript."
+    },
+    {
+        "id": 43,
+        "titulo": "ESLint em JavaScript",
+        "descricao": "ESLint é uma ferramenta de análise estática que ajuda a identificar e corrigir problemas de estilo e erros de programação em código JavaScript. É altamente configurável e pode ser integrado a fluxos de trabalho de desenvolvimento."
+    },
+    {
+        "id": 44,
+        "titulo": "Webpack em JavaScript",
+        "descricao": "Webpack é uma ferramenta de construção (build tool) para JavaScript que permite empacotar e transformar recursos da web, como JavaScript, CSS e imagens, em uma ou mais saídas otimizadas para produção."
+    },
+    {
+        "id": 45,
+        "titulo": "Babel em JavaScript",
+        "descricao": "Babel é uma ferramenta de transpilação que converte código JavaScript escrito usando a sintaxe mais recente do ECMAScript em versões compatíveis com versões anteriores do JavaScript. Isso permite usar recursos modernos em navegadores mais antigos."
+    },
+    {
+        "id": 46,
+        "titulo": "TypeScript em JavaScript",
+        "descricao": "TypeScript é uma linguagem de programação de código aberto que é um superset tipado do JavaScript. Ele adiciona tipagem estática opcional, classes, interfaces e outros recursos ao JavaScript."
+    },
+    {
+        "id": 47,
+        "titulo": "Node.js em JavaScript",
+        "descricao": "Node.js é um ambiente de tempo de execução JavaScript do lado do servidor que permite executar JavaScript fora do navegador. Ele é amplamente utilizado para construir aplicativos de rede escaláveis e de alto desempenho."
+    },
+    {
+        "id": 48,
+        "titulo": "NPM (Node Package Manager) em JavaScript",
+        "descricao": "NPM é o gerenciador de pacotes padrão para JavaScript. Ele permite instalar, compartilhar e gerenciar dependências de projetos JavaScript, facilitando a integração de bibliotecas e ferramentas de terceiros."
+    },
+    {
+        "id": 49,
+        "titulo": "Yarn em JavaScript",
+        "descricao": "Yarn é um gerenciador de pacotes alternativo para JavaScript, desenvolvido pelo Facebook. Ele oferece melhor desempenho, confiabilidade e segurança em comparação com o NPM padrão."
+    },
+    {
+        "id": 50,
+        "titulo": "ES6 em JavaScript",
+        "descricao": "ES6, também conhecido como ECMAScript 2015, é uma grande atualização do JavaScript que introduziu muitos novos recursos, incluindo arrow functions, classes, destructuring, let e const, e muito mais."
+    }
+]
+    
