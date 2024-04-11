@@ -22,13 +22,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-dark1);
     color: var(--color-white);
-    
 }
 
 /* CABEÇALHO */
 
 .img_logo_header{
-    width: 45px;
+    width: 35px;
 }
 
 .header,
@@ -53,12 +52,12 @@ body{
 
 .navigation_header a{
     text-decoration: none;
-    color: var(--color-yellow);
+    color: var(--color-white);
     transition: 1s;
     font-weight: bold;
 }
 .navigation_header a:hover{
-    color: var(--color-white);
+    color: var(--color-yellow);
 }
 
 .active{
@@ -75,26 +74,40 @@ body{
     display: none;
 }
 
+/* CONTAINER */
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
 /* BARRA LATERAL */
 
 .social-media{
     position: absolute;
-    top: 30%;
-    right: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
-.social-media img{
-    display: block;
-    width: 30px;
+.social-media svg{
+    fill: var(--color-white);
     margin: 20px 0;
 }
 
 /* CONTEÚDO */
 
 .content{
-    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: justify;
     transition: 1s;
+    padding-top: 60px;
+    margin: 30px;
 }
 
 .content h1{
@@ -128,10 +141,11 @@ body{
 
 .consulta{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin: 70px;
+    justify-content: center;
+    text-align: justify;
+    transition: 1s;
+    align-items: center;
 }
 
 .consulta p{
@@ -144,8 +158,8 @@ body{
 .consulta select{
     font-size: 14px;
     color: black;
-    width: 100%;
-    height: 50px;
+    width: 50vw;
+    height: 5vh;
     border: 0;
     border-radius: 8px;
     margin-top: 1%;
@@ -156,8 +170,62 @@ body{
     font-size: 14px;
     color: black;
     text-align: justify;
-    width: 100%;
-    height: 300px;
+    width: 50vw;
+    height: 30vh;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+/* ITENS CADASTRO */
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    transition: 1s;
+    align-items: center;
+}
+
+.cadastro p{
+    font-size: 20px;
+    color: var(--color-white);
+    text-align: center;
+    font-weight: bold;
+}
+
+.cadastro button{
+    border: 0;
+    background-color: var(--color-yellow);
+    color: var(--color-dark4);
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+.titulo{
+    font-size: 14px;
+    color: black;
+    width: 50vw;
+    height: 2vh;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+.descricao{
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    width: 50vw;
+    height: 30vh;
     border: 0px;
     border-radius: 8px;
     margin-top: 1%;
@@ -172,7 +240,7 @@ body{
         flex-direction: column !important;
         top: 0;
         background: var(--color-dark5);
-        height: 100%;
+        height: 100vh;
         width: 35vw;
         padding: 1em;
         animation-duration: 1s;
@@ -196,8 +264,9 @@ body{
         height: 50px;
     }
 
-    .social-media{
-        top: 10%;
+    .consulta p{
+        font-size: 15px;
+
     }
 
 }
